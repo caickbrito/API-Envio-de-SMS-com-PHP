@@ -1,0 +1,27 @@
+{
+  "name": "Projeto de Estudo",
+  "description": "Estudando sempre...",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Caick Brito",
+      "email": "cbdeveloper3@gmail.com",
+      "homepage": "https://www.facebook.com/profile.php?id=100012985592682",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php"
+    ]
+  },
+  "require": {
+        
+  }
+}
